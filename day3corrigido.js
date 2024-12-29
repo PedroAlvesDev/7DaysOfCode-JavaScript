@@ -10,7 +10,6 @@ function aparecePrompt() {
     };
 
     let listaTechs = [];
-
     let fullstack = prompt('Você prefere: [1] seguir se especializando na área escolhida ou [2] seguir se desenvolvendo para se tornar Fullstack?')
 
     let aprenderMais = prompt('Tem mais alguma tecnologia que gostaria de aprender? [1] Sim ou [2] Não');
@@ -20,5 +19,4 @@ function aparecePrompt() {
         aprenderMais = prompt(`Que legal que quer estudar ${novaTech}! Agora sua lista de aprendizado está assim: ${listaTechs}. Existe mais alguma tech que deseja aprender ? [1] Sim ou [2] Não`);
     }
     alert('Bons estudos para você então!');
-
 }; 
